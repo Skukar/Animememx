@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const AnimeCard = ({ anime }) => (
   <div className="relative group">
     <NavLink
-      to={`/neko-stream/detail/${anime.link}/${anime.episode}`}
+      to={`/Animememx/detail/${anime.link}/${anime.episode}`}
       onClick={(e) => {
         e.preventDefault();
         window.open(`/neko-stream/detail/${anime.link}/${anime.episode}`, "_blank", "noopener noreferrer");
