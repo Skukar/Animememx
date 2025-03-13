@@ -12,11 +12,11 @@ import { useSearch } from "@/context/searchProvier";
 const Header = () => {
   const navList = [
     {
-      to: "/neko-stream/home",
+      to: "/Animememx/home",
       name: "Home",
     },
     {
-      to: "/neko-stream/genre",
+      to: "/Animememx/genre",
       name: "Genre",
     },
   ];
@@ -61,11 +61,11 @@ const Header = () => {
     e.preventDefault();
 
     if (searchAnime.length === 0) {
-      navigate("/neko-stream/home");
+      navigate("/Animememx/home");
     } else {
       setSearch(searchAnime);
       setIsSearch(true);
-      navigate(`/neko-stream/search/${encodeURIComponent(searchAnime)}`);
+      navigate(`/Animememx/search/${encodeURIComponent(searchAnime)}`);
     }
 
     setSearchAnime("");
