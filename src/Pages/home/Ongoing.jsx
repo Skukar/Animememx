@@ -30,7 +30,7 @@ const Ongoing = () => {
 
   const handlePageChange = (newPage) => {
     if (newPage < 1 || newPage > totalPages) return;
-    navigate(`/neko-stream/ongoing-all/${newPage}`);
+    navigate(`/Animememx/ongoing-all/${newPage}`);
   };
 
   return (
