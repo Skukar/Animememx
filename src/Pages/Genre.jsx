@@ -32,7 +32,7 @@ const Genre = () => {
   useEffect(() => {
     const fetchAnimeList = async () => {
       try {
-        navigate(`/neko-stream/genre/${greneSelected}/${page}`);
+        navigate(`/Animememx/genre/${greneSelected}/${page}`);
         setIsListAnimeLoading(true);
         const response = await axiosClient.get(`/genres/${greneSelected.toLocaleLowerCase()}/${page}`);
         const { genre_data, genre_pages } = response.data.data;
