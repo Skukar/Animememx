@@ -26,7 +26,7 @@ const Batch = () => {
 
   const handlePageChange = (newPage) => {
     if (newPage < 1 || newPage > totalPages) return;
-    navigate(`/neko-stream/batch-all/${newPage}`);
+    navigate(`/Animememx/batch-all/${newPage}`);
   };
 
   const renderPageNumbers = () => {
