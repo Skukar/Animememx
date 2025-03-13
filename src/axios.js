@@ -2,7 +2,7 @@ import axios from "axios";
 import router from "@/router";
 
 const axiosClient = axios.create({
-  baseURL: `${import.meta.env.VITE_API_BASE_URL}/neko-stream`,
+  baseURL: `${import.meta.env.VITE_API_BASE_URL}/Animememx`,
 });
 
 axiosClient.interceptors.request.use((config) => {
