@@ -13,7 +13,7 @@ const MainSection = ({ link, title, isLoading, animesData, length }) => {
           <>
             <h1 className="font-semibold lg:font-bold lg:text-xl">{title}</h1>
             <NavLink
-              to={`/neko-stream/${link}`}
+              to={`/Animememx/${link}`}
               className={`border-b-2 border-gray-700`}>
               <small className="lg:hidden">Lebih Banyak</small>
               <small className="hidden lg:flex">Tampilkan Lebih</small>
