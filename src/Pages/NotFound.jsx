@@ -11,7 +11,7 @@ const NotFound = () => {
       <Button
         className="mt-5"
         variant="secondary">
-        <Link to="/neko-stream/home">Back to Home</Link>
+        <Link to="/Animememx/home">Back to Home</Link>
       </Button>
     </div>
   );
