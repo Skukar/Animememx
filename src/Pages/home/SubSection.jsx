@@ -7,7 +7,7 @@ const SubSection = ({ title, isLoading, animesData, length }) => {
     <span className="bg-gray-900 rounded-lg pb-5">
       <div className="ps-5 flex items-center justify-start gap-1 lg:gap-2">
         <NavLink
-          to="/neko-stream/home"
+          to="/Animememx/home"
           className="flex items-center justify-center pt-0 lg:pt-0.5">
           <i className="bx bx-chevron-left text-lg lg:text-xl"></i>
         </NavLink>
