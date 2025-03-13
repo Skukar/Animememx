@@ -14,10 +14,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      { path: "", element: <Navigate to="/neko-stream/home" /> },
-      { path: "/neko-stream/*", element: <Navigate to="/neko-stream/home" /> },
-      { path: "/neko-stream/home/*", element: <Home /> },
-      { path: "/neko-stream/genre/*", element: <Genre /> },
+      { path: "", element: <Navigate to="/Animememx/home" /> },
+      { path: "/Animememx/*", element: <Navigate to="/Animememx/home" /> },
+      { path: "/Animememx/home/*", element: <Home /> },
+      { path: "/Animememx/genre/*", element: <Genre /> },
       { path: "/neko-stream/genre/:genre/:page/*", element: <Genre /> },
 
       { path: "/neko-stream/ongoing-all/*", element: <Ongoing /> },
