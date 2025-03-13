@@ -18,19 +18,19 @@ const router = createBrowserRouter([
       { path: "/Animememx/*", element: <Navigate to="/Animememx/home" /> },
       { path: "/Animememx/home/*", element: <Home /> },
       { path: "/Animememx/genre/*", element: <Genre /> },
-      { path: "/neko-stream/genre/:genre/:page/*", element: <Genre /> },
+      { path: "/Animememx/genre/:genre/:page/*", element: <Genre /> },
 
-      { path: "/neko-stream/ongoing-all/*", element: <Ongoing /> },
-      { path: "/neko-stream/ongoing-all/:page/*", element: <Ongoing /> },
+      { path: "/Animememx/ongoing-all/*", element: <Ongoing /> },
+      { path: "/Animememx/ongoing-all/:page/*", element: <Ongoing /> },
 
-      { path: "/neko-stream/batch-all/*", element: <Batch /> },
-      { path: "/neko-stream/batch-all/:page/*", element: <Batch /> },
+      { path: "/Animememx/batch-all/*", element: <Batch /> },
+      { path: "/Animememx/batch-all/:page/*", element: <Batch /> },
 
-      { path: "/neko-stream/movie-all/*", element: <Movie /> },
-      { path: "/neko-stream/movie-all/:page/*", element: <Movie /> },
-      { path: "/neko-stream/detail/:title/:episode/*", element: <Detail /> },
+      { path: "/Animememx/movie-all/*", element: <Movie /> },
+      { path: "/Animememx/movie-all/:page/*", element: <Movie /> },
+      { path: "/Animememx/detail/:title/:episode/*", element: <Detail /> },
 
-      { path: "/neko-stream/search/:query/*", element: <Search /> },
+      { path: "/Animememx/search/:query/*", element: <Search /> },
       { path: "*", element: <NotFound /> },
     ],
   },
