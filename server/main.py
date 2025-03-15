@@ -56,7 +56,7 @@ def home():
         logging.error(f"An error occurred: {e}")
         return jsonify({'success': "fail", 'message': "An error occurred.", 'error': str(e)}), 500
 
-@app.route('/api/Animememx/genres', methods=['GET'])
+@app.route('/api/otakudesu/genres', methods=['GET'])
 def genres():
     try:
         genres = "https://otakudesu.cloud/genre-list/"
@@ -122,7 +122,7 @@ def ongoing():
         logging.error(f"An error occurred: {e}")
         return jsonify({'success': "fail", 'message': "An error occurred.", 'error': str(e)}), 500
     
-@app.route('/api/Animememx/batch-all', methods=['GET'])
+@app.route('/api/otakudesu/batch-all', methods=['GET'])
 def batch():
     try:
         page = 1
