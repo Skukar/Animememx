@@ -8,7 +8,7 @@ const AnimeCard = ({ anime }) => (
       to={`/Animememx/detail/${anime.link}/${anime.episode}`}
       onClick={(e) => {
         e.preventDefault();
-        window.open(`/neko-stream/detail/${anime.link}/${anime.episode}`, "_blank", "noopener noreferrer");
+        window.open(`/Animememx/detail/${anime.link}/${anime.episode}`, "_blank", "noopener noreferrer");
       }}>
       <Card
         className="w-[130px] h-[175px] lg:w-[145px] lg:h-[200px] transition-all duration-300 ease-in-out group-hover:scale-105 bg-cover bg-center"
