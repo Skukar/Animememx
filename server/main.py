@@ -30,7 +30,7 @@ limiter = Limiter(
 )
 
 
-@app.route('/api/Animememx/home', methods=['GET'])
+@app.route('/api/otakudesu/home', methods=['GET'])
 def home():
     try:
         # Memanggil fungsi untuk mendapatkan data anime
