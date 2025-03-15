@@ -14,8 +14,8 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      { path: "", element: <Navigate to="/Animememx/home" /> },
-      { path: "/Animememx/*", element: <Navigate to="/Animememx/home" /> },
+      { path: "", element: <Navigate to="/otakudesu/home" /> },
+      { path: "/otakudesu/*", element: <Navigate to="/otakudesu/home" /> },
       { path: "/Animememx/home/*", element: <Home /> },
       { path: "/Animememx/genre/*", element: <Genre /> },
       { path: "/Animememx/genre/:genre/:page/*", element: <Genre /> },
